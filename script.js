@@ -12,11 +12,11 @@ price:"Rs.3999",
 details:"This are Air Jordans",
 
 colors:[{code:'black',
-img:'air.png'}
+img:'images/air.png'}
     
     
     ,{code:'blue',
-    img:'air2.png'}]
+    img:'images/air2.png'}]
 
 
 
@@ -29,11 +29,11 @@ img:'air.png'}
     details:"This are Air Jordans",
     
     colors:[{code:'grey',
-    img:'jordan.png'},
+    img:'images/jordan.png'},
         
         
         {code:'teal',
-        img:'jordan2.png'}]
+        img:'images/jordan2.png'}]
     
     
 },
@@ -45,11 +45,11 @@ img:'air.png'}
     details:"This are Air Jordans",
     
     colors:[{code:'grey',
-    img:'blazer.png'},
+    img:'images/blazer.png'},
         
         
         {code:'green',
-        img:'blazer2.png'}]
+        img:'images/blazer2.png'}]
     
     
 },
@@ -60,11 +60,11 @@ img:'air.png'}
     details:"This are Air Jordans",
     
     colors:[{code:'black',
-    img:'crater.png'},
+    img:'images/crater.png'},
         
         
        {code:'grey',
-        img:'crater2.png'}]
+        img:'images/crater2.png'}]
     
     
 },
@@ -77,11 +77,11 @@ img:'air.png'}
     
     colors:[{
         code:'grey',
-    img:'hippie.png'},
+    img:'images/hippie.png'},
         
         
         {code:'black',
-        img:'hippie2.png'}]
+        img:'images/hippie2.png'}]
     
     
 }
