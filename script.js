@@ -98,7 +98,7 @@ const productName=document.querySelector('.product-name')
 const colors=document.querySelectorAll('.color')
 
 const productSection=document.querySelector('.product')
-const buyButton=document.querySelector('.buy-button')
+const buyButton=document.querySelectorAll('.buy-button')
 
 const sizes=document.querySelectorAll('.size')
 
@@ -132,8 +132,10 @@ menuItems.forEach((el,index)=>{
     })
 
 
-    buyButton.addEventListener('click',function(){
-        productSection.scrollIntoView({behavior:'smooth'})
+    buyButton.forEach(el=>{
+        el.addEventListener('click',function(){
+            productSection.scrollIntoView({behavior:'smooth'})
+        })
     })
 
 
@@ -166,7 +168,7 @@ element.addEventListener('click',function(){
 productBtn.addEventListener('click',function(){
 payment.style.display='flex'
 blurEffect.style.display='block'
-payment.scrollIntoView({behavior:'smooth'})
+productSection.scrollIntoView({behavior:'smooth'})
 
 })
 
